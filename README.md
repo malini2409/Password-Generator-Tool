@@ -40,3 +40,4 @@ def generate_password(length=12, use_special=True, use_digits=True):
 length = int(input("Enter password length: "))
 password = generate_password(length)
 print("Generated Password:", password)
+
